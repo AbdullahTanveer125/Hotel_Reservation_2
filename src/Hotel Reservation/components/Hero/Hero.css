@@ -1,0 +1,33 @@
+.hero_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    background-color: aliceblue;
+    position: relative;
+    /* width: 100vw; */
+    height: 500px;
+}
+
+.hero_image{
+    flex-basis: 100%;
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top: 0;
+}
+
+.hero_inner_container{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 9%;
+    text-align: center;
+    z-index: 11;
+}
+.hero_heading{
+    color: white;
+}

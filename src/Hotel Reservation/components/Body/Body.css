@@ -1,0 +1,29 @@
+/* .body_parent{
+    background-color: blueviolet;
+    width: 100%;
+    height: 620px;
+    background-image: url('../../images/body_background.jpg');
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container_on_image{
+    background-color: var(--dark_grey);
+    text-align: center;
+    padding: 40px;
+    line-height: 60px;
+}
+.container_on_image h1{
+    font-size: 60px;
+    color: var(--light_gray_type);
+}
+.hr{
+    width: 150px;
+}
+.container_on_image p{
+    font-size: 20px;
+    color: var(--gray);
+} */

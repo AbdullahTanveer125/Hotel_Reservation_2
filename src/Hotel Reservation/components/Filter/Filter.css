@@ -1,0 +1,125 @@
+.filter_parent{
+    border: 3px solid rgb(107, 233, 17);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 6%;
+}
+
+
+.room_type{
+    border: 3px solid rgb(149, 36, 36);
+    line-height: 0px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+
+}
+.input_div{
+    border: 3px solid rgb(9, 56, 197);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    /* border: 3px solid; */
+}
+/* .input_div input{
+    border: none;
+    background: transparent;
+} */
+.two_arrow_div{
+    border: 3px solid rgba(17, 213, 43, 0.9);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.two_arrow_div:hover{
+    cursor: pointer;
+}
+
+
+.filter_container{
+    /* border: solid; */
+    /* box-sizing: content-box; */
+    /* align-self: flex-start; */
+    padding: 0px;
+    width: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0px;
+}
+.filter_show{
+    /* box-sizing: content-box; */
+    background-color: rgb(182, 182, 182);
+    color: rgb(18, 39, 63);
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+    padding: 5px;
+}
+.filter_option_show{
+    margin-top: 1px;
+    background-color: rgb(114, 124, 129);
+    width: 100%;
+    /* display: none; */
+}
+.filter_option_show p{
+    padding: 15px 0px;
+    margin: 0px;
+}
+.filter_option_show p:hover{
+    background-color: rgb(0, 64, 100);
+    color: rgb(154, 201, 205);
+    cursor: pointer;
+}
+.filter_hide{
+    display: none;
+}
+.icons{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.room_size{
+    line-height: 0px;
+}
+.limit_div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.check_box_parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 0px;
+}
+.check_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.available_room_after_Filter{
+    /* margin-top: %; */
+    border: 5px solid rgb(16, 63, 108);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.after_filter_heading{
+    flex-basis: 100%;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(16, 63, 108);
+}

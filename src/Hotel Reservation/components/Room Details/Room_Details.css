@@ -1,0 +1,36 @@
+.room_details_parent{
+    border: 2px solid;
+    /* padding-left: 6%; */
+    /* box-sizing: border-box; */
+}
+
+.room_details_inner_container{
+    padding-left: 6%;
+}
+
+.image_view_container{
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 6%;
+}
+
+.details_and_info{
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 13%; */
+}
+.details_and_info > div{
+    flex-basis: 40%;
+}
+
+.extra_info{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34%;
+}
