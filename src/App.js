@@ -11,9 +11,14 @@ import "./App.css";
 // import Go_to_top from "./First Project/GO_TO_TOP/Go_to_top";
 // import Final_todo from "./ToDo List/Final_todo";
 // import Parent_of_gym from "./Gym/Parent_of_gym";
+// import Parent_of_MERN from "./Exercise Tracker/parent_file";
+import Parent_of_MERN_authentication from"./MERN_authentication/Parent_file";
+
+
+
 
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Parent_of_hotel from "./Hotel Reservation/Parent_of_hotel"
+// import Parent_of_hotel from "./Hotel Reservation/Parent_of_hotel"
 
 
 
@@ -38,7 +43,22 @@ function App() {
 
       {/* <Final_todo /> */}
 
-      <Parent_of_hotel />
+      {/* <Parent_of_hotel /> */}
+      {/* <Parent_of_MERN/> */}
+      
+      {/* <Navbar/> */}
+
+      {/* <Routes>
+        <Route path="/"    element={ <Home/> }    />
+        <Route path="/edit/:id"   element={ <About/> }   />
+        <Route path="/create" element={ <Contact/> } />
+        <Route path="/user" element={ <Service/> } />
+        <Route path="*" element={ <Error/> } />
+      </Routes> */}
+
+
+      <Parent_of_MERN_authentication />
+
     </div>
   );
 }
